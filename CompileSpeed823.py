@@ -11,7 +11,7 @@ def runShell():
     global deleFail
     fopen1 = []
     try:
-        os.system('chmod -R 777 /home/yfj/yangfujun/am')
+        os.system('chmod -R 777 /home/yfj/yangfujun/')
         os.system('rm -rf runLog.txt')
         time.sleep(2)
         print('fffffffffffffffffffffffffffdddddddddaaaaaaaaaaasdddddddddddd')
@@ -91,7 +91,7 @@ def readAndDelteInclude(filename, oneinclude):
             newreadfile.close()
 
 if __name__=='__main__':
-    filepath="/home/yfj/yangfujun/am/core/sctplib/"
+    filepath="/home/yfj/yangfujun"
     for root,dirs,files in os.walk(filepath):
         for file in files:
             if file.endswith('.h') or file.endswith('.cc'):
