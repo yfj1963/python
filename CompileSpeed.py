@@ -15,7 +15,7 @@ def runShell(filename):
     fopen = open(filename,'r')
     status = 0
     try:
-        #status = os.system('sh /home/yfj/yangfujun/am/ft/build.sh > runLog.txt')
+        #status = os.system('sh /home/yfj/yangfujun/build.sh > runLog.txt')
         #if  status != 0:
          #   return 0
         #time.sleep(2)
